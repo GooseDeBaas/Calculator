@@ -68,8 +68,8 @@ function operate(e) {
 }
 
 const sum = (firstNumber, secondNumber) => parseInt(firstNumber) + parseInt(secondNumber);
-const substract = (firstNumber, secondNumber) => parseInt(firstNumber) - parseInt(secondNumber);
-const divide = (firstNumber, secondNumber) => parseInt(firstNumber) / parseInt(secondNumber);
+const substract = (firstNumber, secondNumber) => (parseInt(firstNumber) - parseInt(secondNumber)).toFixed(3);
+const divide = (firstNumber, secondNumber) => (parseFloat(firstNumber) / parseFloat(secondNumber)).toFixed(3);
 const multiply = (firstNumber, secondNumber) => parseInt(firstNumber) * parseInt(secondNumber);
 
 
